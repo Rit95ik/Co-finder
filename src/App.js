@@ -4,6 +4,10 @@ import Content from "./components/Content.js";
 import Footer from "./components/Footer.js";
 import { Signup } from "./components/Signup.js";
 import { Login } from "./components/Login.js";
+import Info from "./components/Info.jsx";
+import Testimonials from "./components/Testimonials.jsx";
+import Section from "./components/Section.jsx";
+import Faq from "./components/Faq.jsx";
 
 function App() {
   return (
@@ -15,6 +19,11 @@ function App() {
             <>
               <Navigation />
               <Content />
+              
+              <Info />
+              <Section />
+              <Testimonials />
+              <Faq />
               <Footer />
             </>
           }
